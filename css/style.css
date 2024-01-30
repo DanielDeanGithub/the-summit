@@ -16,3 +16,19 @@ a:hover {
     color: #2176FF;
     font-weight: bold;
 }
+
+.btn {
+    font-family: 'Raleway', sans-serif;
+    background-color: hsla(217, 100%, 56%, 75%);
+    color: #fff;
+    padding: .75rem;
+    border: 1px solid hsla(217, 100%, 56%, 75%);
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: hsla(217, 100%, 56%, 100%);
+    border-color: #fff;
+}
