@@ -1,5 +1,5 @@
 a {
-    color: #2176FF;
+    color: hsla(217, 100%, 56%, 100%);
     text-decoration: underline;
     cursor: pointer;
 }
@@ -13,28 +13,34 @@ a:hover {
 }
 
 .nav-link:hover {
-    color: #2176FF;
+    color: hsla(217, 100%, 56%, 100%);
     font-weight: bold;
 }
 
 .btn {
     font-family: 'Raleway', sans-serif;
     background-color: hsla(217, 100%, 56%, 75%);
-    color: #fff;
+    color: hsla(0, 0%, 100%, 100%);
     padding: .75rem;
     border: 1px solid hsla(217, 100%, 56%, 75%);
     border-radius: 10px;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: bolder;
+    font-size: 18px;
 }
 
 .btn:hover {
     background-color: hsla(217, 100%, 56%, 100%);
-    border-color: #fff;
+    border-color: hsla(0, 0%, 100%, 100%);
 }
 
 .btn:active {
     background-color: hsla(217, 100%, 35%, 100%);
-    border-color: #fff;   
+    border-color: hsla(0, 0%, 100%, 100%);  
+}
+
+.activity {
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid hsla(217, 100%, 56%, 75%);
 }
