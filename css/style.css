@@ -26,9 +26,15 @@ a:hover {
     border-radius: 10px;
     text-decoration: none;
     text-transform: uppercase;
+    font-weight: bolder;
 }
 
 .btn:hover {
     background-color: hsla(217, 100%, 56%, 100%);
     border-color: #fff;
+}
+
+.btn:active {
+    background-color: hsla(217, 100%, 35%, 100%);
+    border-color: #fff;   
 }
